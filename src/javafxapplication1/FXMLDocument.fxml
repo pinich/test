@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" mouseTransparent="false" prefHeight="588.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+  <children><ImageView fitHeight="310.0" fitWidth="496.0" layoutX="380.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@2.jpg" />
+</image></ImageView>
+    <Button fx:id="button" layoutX="32.0" layoutY="87.0" onAction="#handleButtonAction" text="Click Me!" />
+    <Label fx:id="label" layoutX="123.0" layoutY="77.0" minHeight="16.0" minWidth="69.0" prefHeight="52.0" prefWidth="167.0" style="-fx-background-color: yellow;" textFill="RED">
+      <font>
+        <Font name="Comic Sans MS" size="25.0" />
+      </font>
+    </Label>
+    <Ellipse layoutX="693.0" layoutY="94.0" radiusX="69.0" radiusY="67.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0">
+      <effect>
+<Reflection />
+      </effect>
+<fill>
+<RadialGradient centerX="0.5168539325842697" centerY="0.3461538461538461" cycleMethod="REFLECT" radius="0.5">
+<stops>
+<Stop color="#fff6f6" />
+<Stop color="#fff6f6" offset="0.00749063670411985" />
+<Stop color="#eeea68" offset="0.23905723905723913" />
+<Stop color="#f2f83e" offset="0.4848484848484849" />
+<Stop color="#f20303" offset="1.0" />
+</stops>
+</RadialGradient>
+</fill>
+    </Ellipse>
+    <Slider fx:id="sld1" layoutX="11.0" layoutY="56.0" prefHeight="16.0" prefWidth="350.0" value="68.0" /><ProgressIndicator fx:id="prgi" layoutX="332.0" layoutY="10.0" progress="0.55" /><DatePicker layoutX="16.0" layoutY="16.0" prefHeight="25.0" prefWidth="152.0" /><WebView fx:id="webweb" layoutY="254.0" prefHeight="333.0" prefWidth="876.0" /><ColorPicker layoutX="176.0" layoutY="15.0" />
+  </children>
+</AnchorPane>
