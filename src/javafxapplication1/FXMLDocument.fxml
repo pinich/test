@@ -15,7 +15,7 @@
 <image>
 <Image url="@2.jpg" />
 </image></ImageView>
-    <Button fx:id="button" layoutX="32.0" layoutY="87.0" onAction="#handleButtonAction" text="Click Me!" />
+    <Button fx:id="button" layoutX="32.0" layoutY="87.0" onAction="#handleButtonAction" style="-fx-background-color: red;" text="Click Me!" />
     <Label fx:id="label" layoutX="123.0" layoutY="77.0" minHeight="16.0" minWidth="69.0" prefHeight="52.0" prefWidth="167.0" style="-fx-background-color: yellow;" textFill="RED">
       <font>
         <Font name="Comic Sans MS" size="25.0" />
